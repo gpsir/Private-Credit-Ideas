@@ -46,6 +46,19 @@ Live App 👉 [https://gpsir-vgpcai.streamlit.app](https://gpsir-vgpcai.streamli
 - Early-stage AI-credit prototyping
 
 ---
+# -------------------------------
+# 📄 Add Me Section – PDF or Pitch Export Options
+# -------------------------------
+st.markdown("---")
+st.header("📥 Export Options")
+
+# Option to download a PDF Credit Memo (placeholder)
+if st.button("Generate PDF Credit Memo"):
+    st.info("🚧 PDF generation coming soon. This will generate a downloadable version of the credit memo.")
+
+# Option to download a Pitch Deck Version (placeholder)
+if st.button("Generate Pitch Deck Version"):
+    st.info("🚧 Pitch deck generation will include highlights and key visuals.")
 
 ## 📫 Contact
 
