@@ -1,0 +1,56 @@
+{
+    "entity_risk": {
+        "final_entity_risk_score": 0.6,
+        "flags": [
+            "\ud83d\udfe1 Informal succession planning"
+        ]
+    },
+    "lending_risk": {
+        "score": 5,
+        "decision": "CONDITIONAL",
+        "dscr": 1.1,
+        "flags": [
+            "\u26a0\ufe0f DSCR near minimum threshold"
+        ]
+    },
+    "ratio_projection": {
+        "flags": [
+            "\u26a0\ufe0f Projected DSCR dips below 1.0 in stress"
+        ]
+    },
+    "inventory": {
+        "score": -2,
+        "flags": [
+            "\u26a0\ufe0f Inventory growing faster than revenue"
+        ]
+    },
+    "cashflow": {
+        "sustainability": "Volatile",
+        "dscr_flags": [
+            "\u26a0\ufe0f Cash flow variability high"
+        ]
+    },
+    "group_exposure": {
+        "risk_tier": "HIGH",
+        "flags": [
+            "\u26a0\ufe0f High intercompany loan exposure"
+        ]
+    },
+    "off_balance": {
+        "risk_level": "MODERATE",
+        "flags": []
+    },
+    "convertible_exit": {
+        "exit_readiness": "LOW",
+        "flags": [
+            "\u26a0\ufe0f Poor exit planning"
+        ]
+    },
+    "ecosystem": {
+        "supplier_risk_score": 0.7,
+        "customer_risk_score": 0.65,
+        "flags": [
+            "\ud83d\udfe1 Customer concentration risk"
+        ]
+    }
+}
