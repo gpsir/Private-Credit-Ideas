@@ -1,0 +1,40 @@
+{
+    "entity_risk": {
+        "final_entity_risk_score": 0.9,
+        "flags": []
+    },
+    "lending_risk": {
+        "score": 9,
+        "decision": "APPROVE",
+        "dscr": 3.0,
+        "flags": []
+    },
+    "ratio_projection": {
+        "flags": []
+    },
+    "inventory": {
+        "score": 2,
+        "flags": []
+    },
+    "cashflow": {
+        "sustainability": "Strong",
+        "dscr_flags": []
+    },
+    "group_exposure": {
+        "risk_tier": "LOW",
+        "flags": []
+    },
+    "off_balance": {
+        "risk_level": "LOW",
+        "flags": []
+    },
+    "convertible_exit": {
+        "exit_readiness": "HIGH",
+        "flags": []
+    },
+    "ecosystem": {
+        "supplier_risk_score": 0.2,
+        "customer_risk_score": 0.3,
+        "flags": []
+    }
+}
